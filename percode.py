@@ -7,8 +7,8 @@
 # percode v0.1
 # percent encode/decode arbitrary strings
 #
-# usage: $ python percode.py -e '<STRING>'
-# usage: $ python percode.py -d %3c%53%54%52%49%4e%47%3e
+# encode usage: $ python percode.py -e '<STRING>'
+# decode usage: $ python percode.py -d %3c%53%54%52%49%4e%47%3e
 #
 # # # # # # # # 
 #

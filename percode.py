@@ -16,12 +16,10 @@
 # https://mttaat.net
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-
-
 import sys
-import re
 
 if sys.argv[1] == "-e":
+ # encode
  un = sys.argv[2]
  un = str(un)
  en = ""
@@ -30,6 +28,7 @@ if sys.argv[1] == "-e":
   en += "%" + str(ch.encode("hex"))
  print(en)
 elif sys.argv[1] == "-d":
+ # decode
  en = sys.argv[2]
  en = en.replace("%", "")
  un = str(en.decode("hex"))

